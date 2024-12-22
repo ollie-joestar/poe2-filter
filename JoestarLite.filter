@@ -1,4 +1,4 @@
-#ver. 0.2.1221
+#ver. 0.2.1222
 
 #--------------------------
 # Hiding Useless Normals
@@ -9,14 +9,14 @@ Sockets < 1
 Rarity Normal
 SetBorderColor 70 60 50
 SetFontSize 20
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Sceptres" "Quivers" "Flasks" "Wands"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
 
 Hide
 Quality = 0
 Rarity Normal
 SetBorderColor 70 60 50
 SetFontSize 20
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Sceptres" "Quivers" "Flasks" "Wands"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
 
 #--------------------------
 # Overrides - Uniques, Valuables
@@ -84,7 +84,6 @@ SetBackgroundColor 0 0 0 180
 # Uncut Gems
 #--------------------------
 
-# Always make Spirit gems pop
 Show
 BaseType "Uncut Spirit Gem"
 SetTextColor 20 240 240
@@ -94,7 +93,6 @@ PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 SetFontSize 40
 
-# Make support gems pop during campaign
 Show
 AreaLevel < 68
 BaseType "Uncut Support Gem"
@@ -105,7 +103,6 @@ PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 SetFontSize 40
 
-# Make skill gems pop during campaign
 Show
 AreaLevel < 65
 BaseType "Uncut Skill Gem"
